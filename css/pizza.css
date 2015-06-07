@@ -1,0 +1,47 @@
+html, body {
+	margin: 0; 
+	padding: 0;
+	height: 100%;
+	font-family: 'Merriweather', Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Alice', Georgia, serif;
+} 
+
+.human2 {
+	width: 50%;
+	float: left;
+} 
+.tree98 {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-image: url("../images/tree98.jpg");
+	background-size: cover;
+}
+.container {
+	padding: 10%; 
+}
+
+@media screen and (max-width:500px) {
+
+	.tree98 {
+		width: 33%;
+		background-position: center center;
+		transition: 0.2s width;
+		-webkit-transition: 0.2s width;
+		-moz-transition: 0.2s width;
+		-ms-transition: 0.2s width;
+		-o-transition: 0.2s width;
+	}
+
+	.human2 {
+		width: 67%;
+		transition: 0.2s width;
+		-webkit-transition: 0.2s width;
+		-moz-transition: 0.2s width;
+		-ms-transition: 0.2s width;
+		-o-transition: 0.2s width;
+	}
+}
